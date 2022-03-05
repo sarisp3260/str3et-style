@@ -5,11 +5,11 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        purple: "#B4A4FC",
-        primary: "#6951EB",
-        blueDark: "#1B2B43",
-        white: "#F9F2F5"
-      }
+        beige: '#CAC0A7',
+        primary: "#0B1520",
+        red: "#C03440",
+        pink: "#F8E1E7"
+      },
     },
   },
   plugins: [],
