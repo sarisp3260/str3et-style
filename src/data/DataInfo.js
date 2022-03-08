@@ -1,41 +1,27 @@
+
 export const DataInfo = [
     {
         title: "Lo más reciente!",
-        text:"Lo nuevo"
+        text:[
+        <a href="https://www.google.com.co/" target="_blank" rel="noreferrer" className="hover:text-red py-2">Lorem</a>,
+        <a href="https://www.google.com.co/" target="_blank" rel="noreferrer" className="hover:text-red py-2">Lorem2</a>,
+        <a href="https://www.google.com.co/" target="_blank" rel="noreferrer" className="hover:text-red py-2">Lorem3</a>,
+        <a href="https://www.google.com.co/" target="_blank" rel="noreferrer" className="hover:text-red py-2">Lorem4</a>
+        ]
     },
     {
         title: "Te puede interesar",
-        text:"Moda"
+        text:[
+        <a href="https://www.google.com.co/" target="_blank" rel="noreferrer" className="hover:text-red py-2">Lorem</a>,
+        <a href="https://www.google.com.co/" target="_blank" rel="noreferrer" className="hover:text-red py-2">Lorem</a>,
+        <a href="https://www.google.com.co/" target="_blank" rel="noreferrer" className="hover:text-red py-2">Lorem</a>
+        ]
     },
     {
         title: "Lo más visto",
-        text: "videos"
+        text:[
+        <a href="https://www.google.com.co/" target="_blank" rel="noreferrer" className="hover:text-red py-2">Lorem</a>,
+        <a href="https://www.google.com.co/" target="_blank" rel="noreferrer" className="hover:text-red py-2">Lorem</a>
+        ]
     }
 ]
-
-/* const DataInfo = [
-    {
-        title: "Lo más reciente!",
-        text:['Videos1','Video1s', 'Vide1os'],
-        link:[
-            'https://www.youtube.com/',
-            'https://getbootstrap.com/', 
-            'https://react-icons.github.io/react-icons']
-    },
-    {
-        title: "Te puede interesar",
-        text:['Videos2','Video2s', 'Vide2os'],
-        link:[
-            'https://tailwindcss.com/',
-            'https://getbootstrap.com/', 
-            'https://react-icons.github.io/react-icons']
-    },
-    {
-        title: "Lo más visto",
-        text:['Videos3','Video3s', 'Vide3os'],
-        link:[
-            'https://tailwindcss.com/',
-            'https://getbootstrap.com/', 
-            'https://react-icons.github.io/react-icons']
-    }
-] */

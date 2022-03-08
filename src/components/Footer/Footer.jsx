@@ -5,11 +5,11 @@ import CollapseLeft from '../Collapse/CollapseLeft'
 import CollapseRigth from '../Collapse/CollapseRigth'
 import BrandInfo from './BrandInfo'
 
-function Footer() {
+const Footer = () => {
   return (
-    <footer className='bg-primary text-white px-8 py-8 sm:px-16'>
+    <footer className='bg-primary text-white px-8 py-8 sm:px-16' >
         
-        <BrandInfo/>
+        <BrandInfo />
 
         <div className="brandUpdates pt-12 lg:hidden">
           <h1 className='text-3xl font-bold pb-4'>Información</h1>

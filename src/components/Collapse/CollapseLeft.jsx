@@ -2,7 +2,9 @@ import React, {useState} from 'react'
 import { FiPlus, FiMinus } from 'react-icons/fi';
 import { dataFAQ } from '../../data/DataFAQ'
 
-function CollapseLeft() {
+
+const CollapseLeft = () => {
+
   const [isOpen, setIsOpen] = useState(false)
 
   const toogle = index => {
@@ -11,13 +13,12 @@ function CollapseLeft() {
     }
     setIsOpen(index)
   }
-  console.log(isOpen)
-    
+  
   return (
     <div>
-        {dataFAQ.map((element, index) => <div>
+        {dataFAQ.map((element, index) => <div key={index}>
             <div className='lineTop h-0.5 bg-white rounded'></div>
-            <div onClick={() => toogle(index)} key={index} className="brandUpdates-text px-6 py-4 flex justify-between items-center">
+            <div onClick={() => toogle(index) } key={index} className="brandUpdates-text px-6 py-4 flex justify-between items-center">
                 <button className='text-3xl'>{isOpen === index ? <FiMinus/> : <FiPlus/>}</button>
                 <span className='text-lg sm:text-2xl'>{element.title}</span>
             </div>
