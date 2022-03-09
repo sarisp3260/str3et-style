@@ -11,14 +11,14 @@ const MenuToogle = () => {
       
     <div className="menu-items">
         <div className={`item ${itemDiv} grid-cols-1 md:grid-cols-2`}>
-            <Link to="!#" className={`${spanCofig} `}>Inicio</Link>
+            <Link to="/" className={`${spanCofig} `}>Inicio</Link>
             <div className="linkItems-item gap-2 flex flex-col">
                 <Link to="!#" className={`${linkItem} `}>Sobre Nosotros</Link>
                 <Link to="!#" className={`${linkItem} `}>Conocer más</Link>
             </div>
         </div>
         <div className={`item ${itemDiv} grid-cols-1 md:grid-cols-2`}>
-            <Link to="!#"className={`${spanCofig} `}>Productos</Link>
+            <Link to="/Productos"className={`${spanCofig} `}>Productos</Link>
             <div className="linkItems-item gap-2 flex flex-col">
                 <Link to="!#" className={`${linkItem} `}>Camiseta</Link>
                 <Link to="!#" className={`${linkItem} `}>Buzos</Link>

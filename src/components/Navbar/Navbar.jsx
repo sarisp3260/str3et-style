@@ -3,9 +3,9 @@ import {MdMenu, MdOutlineSearch, MdOutlineShoppingBag} from 'react-icons/md'
 import CounterItems from './CounterItems'
 
 
-const Navbar = () => {
+const Navbar = ({textColor}) => {
   return (
-    <nav className='flex justify-between mx-6 h-16 sm:mx-12'>
+    <nav className={`flex justify-between mx-6 h-16 ${textColor} sm:mx-12`}>
         <div className="left-items flex items-center gap-2 sm:gap-4">
             {/* {responsive != '' ? null : <MdMenu className='text-3xl font-black hover:text-beige'/>} */}
             <MdMenu className='text-3xl font-black hover:text-beige '/>
