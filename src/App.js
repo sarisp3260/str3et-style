@@ -1,5 +1,5 @@
 import './App.css';
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, useLocation } from 'react-router-dom'
 import Footer from './components/Footer/Footer';
 import Home from './pages/Home';
 import NotFound from './pages/NotFound';
@@ -9,16 +9,18 @@ import Navbar from './components/Navbar/Navbar';
 
 
 function App() {
- /*  const location = useLocation() */
+  const location = useLocation()
+  /* console.log(location) */
   return (
     <>
-      {/* {location.pathname !== "/" ? <Navbar/> : null} */}
+      <Navbar textColor='text-primary'/>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/Productos' element={<Products/>}/>
         <Route path='*' element={<NotFound/>}/>
       </Routes>
-      <Footer/>
+      {location.pathname !== '*' && <Footer/>}
+      {/* <Footer/> */}
   </>
   );
 }

@@ -4,6 +4,7 @@ import CollapseLeft from '../Collapse/CollapseLeft'
 /* import { MdKeyboardArrowDown } from 'react-icons/md' */
 import CollapseRigth from '../Collapse/CollapseRigth'
 import BrandInfo from './BrandInfo'
+import CopyRights from './CopyRights'
 
 const Footer = () => {
   return (
@@ -13,7 +14,7 @@ const Footer = () => {
 
         <div className="brandUpdates pt-12 lg:hidden">
           <h1 className='text-3xl font-bold pb-4'>Información</h1>
-          <CollapseRigth/>
+          <CollapseRigth dataIn='DataInfo'/>
           <div className='lineTop h-0.5 bg-white rounded'></div>
         </div>
 
@@ -31,7 +32,7 @@ const Footer = () => {
           <FaSpotify className='hover:text-green-400'/>
           <FaFacebookF className='hover:text-blue-500'/>
         </div>
-        <div className='text-lg text-center pt-6 sm:text-xl font-semibold'>© STR3ET STYLE 2022, Todos los derechos reservados</div>
+        <CopyRights/>
     </footer>
   )
 }

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { MdKeyboardArrowDown, MdKeyboardArrowUp } from 'react-icons/md'
 import { DataInfo } from '../../data/DataInfo'
 
-const CollapseRigth = () => {
+const CollapseRigth = ({dataIn}) => {
 
   const [isOpen, setIsOpen] = useState(false)
 
@@ -15,7 +15,9 @@ const CollapseRigth = () => {
 
   return (
     <>
-        {DataInfo.map((element, index) => <div key={index}>
+        {dataIn === 'DataInfo' ? 
+        <div>
+          {DataInfo.map((element, index) => <div key={index}>
             <div className='lineTop h-0.5 bg-white rounded'></div>
             <div onClick={() => toogle(index)} key={index} className="brandUpdates-text px-6 py-4 flex justify-between items-center">
                 <span className='text-lg sm:text-2xl'>{element.title}</span>
@@ -27,6 +29,8 @@ const CollapseRigth = () => {
               <div className='flex flex-col'>{element.text}</div>
             </div> : null}
             </div>)}
+        </div>
+        : null}
     </>
   )
 }

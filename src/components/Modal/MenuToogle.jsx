@@ -9,7 +9,7 @@ const MenuToogle = () => {
 
   return (
       
-    <div className="menu-items">
+    <div className="menu-items bg-beige px-10 py-7 z-50 absolute top-16 left-0 w-full h-screen sm:w-3/5 lg:w-2/5">
         <div className={`item ${itemDiv} grid-cols-1 md:grid-cols-2`}>
             <Link to="/" className={`${spanCofig} `}>Inicio</Link>
             <div className="linkItems-item gap-2 flex flex-col">

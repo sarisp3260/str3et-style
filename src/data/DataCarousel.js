@@ -1,0 +1,23 @@
+export const DataCarousel = [
+    {
+        modelos: [
+            'https://dsm01pap001files.storage.live.com/y4mUIM-AbL0QwcCoPcre5MFfBW6t6W9M0qeA_fvv7rPqtA65hWoN_pWmXMPI-bKcnpNi0j326mWjGrpXnjx-6n3csoEjBAKna-AOgwEv23jzTflVBdlWsRjkSl7gasOQffNHHyMtn1VK-7ZZwrsRxhKRPr-F77EyeP1XQ7-I_6UVK-8UvrR-hhkZQf-ybxmYzah?width=1064&height=1600&cropmode=none',
+            'https://dsm01pap001files.storage.live.com/y4mkf92r1vwVG52VMyP_nQmVTF_myW0E57BNEzGlJ7H9aELnfhyMWkzDAbRVHzc0n16yum9BFnkwtEFF0KYwSM9_COMgHUBHTYcMGDkhEZ_zclnQo2kuUAVsUQZBqJWicni2OxB8Hyuk_5-4gzuMsEFcfP4egQWXzkHUmt_uZEl-g9t86tAEvk-hkGdCHIbWTlm?width=1064&height=1600&cropmode=none',
+            'https://dsm01pap001files.storage.live.com/y4mvynbrOorBzuUTbGYa6eazNXR84-XF7s7rAN10V3fOHSAkBs-QMDsjxVG8o2ThtL7GPKA1v-rHKfTyoetJ7Z7Kn-eopeCDD7BvePI90rI57r-_dKhCvzO-Sr3axUTYwySD7586UFVC7NqFGGHytBPte1eNNwAOlPygrpjaMGEpEY1ZU6-NbjFafUEnZh3PcL6?width=1064&height=1600&cropmode=none',
+            'https://dsm01pap001files.storage.live.com/y4m6Agb_3Od1W1nv5s75ECcSw2UiRUj3jKSxNIPveK4RArDDWh6nV5SZw7gbsklyxKdTSOBmifIH5YCSuylAYRR2XlYLVa-b6yxxfIU_SlcWNcq1Xf0kBVwlvfUAjs3_tazPC3LC908hM7GfdkEaG7I5TsTL3kVhskb7VBzAi5auaoZGGYed6iBDV1nx5_uG95J?width=1064&height=1600&cropmode=none',
+            'https://dsm01pap001files.storage.live.com/y4mdtUGAd49ciHusmBF-y9sU1JcWKyOrpdlByanDYG5TOeEt85avF57Iq4QYpoW8ZZeMsKqx5b_ZpQU1PPGyagZFatTx-ih0MbmUNdsAKyURR5T52wSmg792OClJ_V7CD9IHyPJBhmILKAmRZOb_0sC4tQysYbE9WzqDEaXU-R7AQW29IrKgyq6s0QjMFLNSdHh?width=1064&height=1600&cropmode=none',
+            'https://dsm01pap001files.storage.live.com/y4m3LGgYDb4iF_psLuNq2t_ABtkwMHpyla4XSRTGoZ9RZdjtQ0z7sJrZ7yuv7H0W90usvOI02AGr8OMHrWpwdAyLgcItKF1n5SlYk6FdCpTmPjMJNMhCuyvUoj8nQtC9sx_DRzMaCnELLyVGCPIYhr2PR2w1BcywPYEQiLlc88ccCB7MwXCE0Rj-12pxaCV5VE6?width=1064&height=1600&cropmode=none',
+            'https://dsm01pap001files.storage.live.com/y4mJmZpcKRIaDZQb9oT2Dj1Py9dAmtN0p5Amd17LesS8SinkiMouyhuZT07UxaW-9cPgRG-1it_pU4ApfD8GmqCfHIr_q2MfI8g8jToOwcmVZ0xjjrRGK6kXn6roOXD7wMhMuayhFEmJoT51YAAntPftPwVsd_DzrPjzVwKNLA_Ef43UV7xtdjYWRS88hsngvo2?width=1064&height=1600&cropmode=none',
+            'https://dsm01pap001files.storage.live.com/y4mKEsrt7R9nQOzERPpKCAkNu5SyR51HYUqHT_HwNa-7lqPOTaQyTb7Y9o5Q6V2qKxjtSiUKJ-SBTHOVL_6GIrTj3QxjSKSZ_mBXnSZq7Pp4slzG_JEYCqSD4iPM_croL-mHznT6nWsQER6OK96ZSbqHp5TLlakOLXCIqYvAcLxNOzLlMPogMv8vSj2m1MR_KSB?width=1064&height=1600&cropmode=none'
+        ],
+        cool: [
+            'https://dsm01pap001files.storage.live.com/y4m4RDSmq6fzIOfaOvv-LbwGsZeFvRpFNnfM-gJT6L1crUYtusoVGY8LE8_-bzO0IHSh-ia_d38Ubi75T8DPBP1tWXeoJtAqQqziiBT8ekYoYQXXpcW4BNw7rTr8surrO8uMRTTSVWboGtX9fk8DNqHCiuDznqdlDJ5h5cm6gJCAVMhysf_HOi_X_XWBGZZ7xlj?width=150&height=150&cropmode=none',
+            'https://dsm01pap001files.storage.live.com/y4mnqcNLzyr3DrVWbD0n3srmTe0DqG0M0BhN2_zjwqeRoon30PbQdJzQvVFwtmLSAQZxJ-IOy_8WC6HQsOPJmMJqISgJvPLT8udm-FjKdEbGIdzxvCAylFvghzQBtj1wt7b2kPKaFPDPVudN6T3RNV0msHuB49vOGAgXD7xsiQCOXPsRMpXLt68wNbr38FxvVwe?width=640&height=640&cropmode=none',
+            'https://dsm01pap001files.storage.live.com/y4mjnpzsY9wg0STAuC2L4ika0TSq2HgtKfcan017p0a5pTs3jfLQNrQYAZV6rPPiqnlYbLUVSOepYL5UuzKJUkuTxlJkxFiqokaT2xXw27t4HdxUi-2HwVoqZ1tW3vy1XlR_l3H1-kTM7XJN23NJOapzgDU7Yl5e9QaQdtbRAtbHntP5_CvaUkXYdLBZ5BJVr6M?width=640&height=640&cropmode=none',
+            'https://dsm01pap001files.storage.live.com/y4mYiwZDd0xqbYIqJHmRJDe3F4nkh2uteghh7SxwLfVO8fvWhFGNMqkeZmo2plMwVSkqT8rptOt0T6xnIz4xGCeZfpoSNRGJ-2mVCgJeUm3wOofzdIj_p4XbL3kTDlm9LSvjkz0KOkuCMJyEHQxnH10t2vItEZFE4RqL4xyNrgiz2CUb9NW0514a22fYHaFpxIp?width=150&height=150&cropmode=none',
+            'https://dsm01pap001files.storage.live.com/y4mTnJagAaMSBgultskx9-7xCf6mJeZ4s5t1OkT4PymkiQb50Bb8i_AcDuwljq8KdjzxbAHxOpNt8UZZWwAAFHmxy5SsVMK6-l1a-bllq1CU_rpPpUSYWb2IcZyHs3TaAkusN2AtRoLi4mOOdYooekZ1B-6FgzSoz_WscyryjbLGLVkAEdiu4rh4xW63OenNlqP?width=640&height=640&cropmode=none',
+            'https://dsm01pap001files.storage.live.com/y4miIXj2STh7tH29KKb0r8-Jn0wej-ZNXz4dOUE9c1fG2zPWOck1OBy7ozV8n2axk5cZgyDjHOw_B5fZr3ICzh3KnTXmxzqbL_PBHriwDN20uxzNztpvSblbrprcKE77gsj6jkLy8qktEKlI2-rFbYmbyatXmzmX4JFsvIAvNRmuYRbM7DKx9Z3QL7j0W9UhW-O?width=640&height=640&cropmode=none',
+            'https://dsm01pap001files.storage.live.com/y4mEGVO5Jk_1Adlhp0zN7oqdUvxYxN5ybdvDzmHes6heRsl6I-YavLY2QKTcxec7rgk3oNGK4n7Ea1Y7UX1zRfqItY3nJIwSdhtvpad5-a6mFM_H3pSNa7dBxShzWdttKrElNTMePtjbJ-8swbmb0FZF9EYLiXqp2qD6c5wRoBx6gSIeK59vvqtX_ydmJSmO0tN?width=640&height=640&cropmode=none'
+        ]
+    }
+]
