@@ -29,6 +29,7 @@ const Products = () => {
             image={item.image}
             name={item.name}
             price={item.price}
+            size={item.size}
             description={item.description}
             material={item.materialcare}
             others={item.other}

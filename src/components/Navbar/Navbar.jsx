@@ -32,7 +32,6 @@ const Navbar = ({textColor}) => {
   return (
     <nav className={`flex ${colorNav} justify-between px-6 h-16 fixed top-0 w-full z-20 sm:px-12`}>
       <div className={`left-items flex items-center gap-2 sm:gap-4  ${textColor}`}>
-          {/* {responsive != '' ? null : <MdMenu className='text-3xl font-black hover:text-beige'/>} */}
           <div onClick={() => {setMenuOpen(!menuOpen); /* console.log('hg') */}}>
             <MdMenu className='text-2xl font-black sm:text-4xl hover:text-primary/60' />
           </div>
@@ -45,7 +44,7 @@ const Navbar = ({textColor}) => {
             <MdOutlineShoppingBag className='text-2xl sm:text-4xl hover:text-primary/60'/>
           </div>
       </div>
-      {menuOpen && <MenuToogle/>}
+      {menuOpen && <div onClick={()=> setMenuOpen(false)}><MenuToogle/></div>}
     </nav>
   )
 }

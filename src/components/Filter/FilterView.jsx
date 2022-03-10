@@ -21,7 +21,7 @@ const FilterView = () => {
         </div>
         <div className="Colors">
             <h1 className={`${styleText}`}>Color</h1>
-            <div className='flex py-6 items-center gap-4 overflow-auto touch-pan-x'>
+            <div className='flex py-6 items-center gap-4 overflow-auto touch-pan-x lg:touch-none lg:flex-wrap'>
                 <Button typeBtn='beige' value='Amarillo'/>
                 <Button typeBtn='beige' value='Azul'/>
                 <Button typeBtn='beige' value='Blanco'/>

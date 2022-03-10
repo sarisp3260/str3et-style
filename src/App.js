@@ -13,13 +13,13 @@ function App() {
   /* console.log(location) */
   return (
     <>
-      <Navbar textColor='text-primary'/>
+      {location.pathname !== '/' && location.pathname !== '/Productos'  ? null : <Navbar textColor='text-primary'/>}
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/Productos' element={<Products/>}/>
         <Route path='*' element={<NotFound/>}/>
       </Routes>
-      {location.pathname !== '*' && <Footer/>}
+      {location.pathname !== '/' && location.pathname !== '/Productos'  ? null : <Footer/>}
       {/* <Footer/> */}
   </>
   );
