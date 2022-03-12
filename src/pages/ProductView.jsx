@@ -1,12 +1,11 @@
 import React from 'react'
-import CopyRights from '../components/Footer/CopyRights'
 import Button from '../components/Buttons/Button'
 import CollapseRigth from '../components/Collapse/CollapseRigth'
 import CounterButtons from '../components/Buttons/CounterButtons'
 
 const ProductView = () => {
   return (
-    <div className='h-screen '>
+    <div className='h-screen ' key=''>
       <div className='grid grid-cols-1 grap-5 md:grid-cols-2 place-items-center'>
           <img className='w-80 md:w-fit' src="https://dsm01pap001files.storage.live.com/y4mrKpCHmjijOUuDRaIVNNU9W13l3TgXvuIvqnSlq--lncnL5syvRyr7pMB2ii9JEn-4H_-ZBsbsdz_HFBeRKo46eKEBUAnuqU8sTOuCoiOO9mP77pQhsghPdWfETgLAWNbJEMu3_ldzBqn3FrnxI-Ou6Ya4n1JuNfBvsbv0Scci-kSwktEM7K6jCWlCCDDk3Sy?width=500&height=500&cropmode=none" alt="" />
           <div className="detail-product flex flex-col items-center gap-6 px-8">

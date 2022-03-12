@@ -20,7 +20,7 @@ const Button = ({typeBtn, value, extra, textsize, icon}) => {
     </button>
     : typeBtn === 'close' ?
     <button className="btn text-primary hover:text-red">
-            <FaTimes className='text-xl sm:text-2xl'/>
+            <FaTimes className='text-xl sm:text-2xl lg:text-3xl'/>
     </button>
     : typeBtn === 'extra' ?
     <button className={`${extra} btn py-1 px-4 sm:py-2 sm-px-6`}>

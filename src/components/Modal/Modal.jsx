@@ -1,26 +1,27 @@
 import React, { useState } from 'react'
 import Button from '../Buttons/Button'
 import FilterView from '../Filter/FilterView'
-import MenuToogle from './MenuToogle'
 
-const Modal = ({title}) => {
+const Modal = ({title, text}) => {
 
     const [menuOpen, setMenuOpen] = useState('block')
 
     /* console.log(menuOpen) */
 
   return (
-    <section className={`${menuOpen} bg-white px-10 py-7 z-50 absolute top-0 right-0 w-full h-screen shadow-lg sm:w-3/5 lg:w-1/2`}>
+    <section className={`modal ${menuOpen} bg-slate-50 z-10 absolute top-20 right-0 w-full h-fit shadow-lg`}>
 
-        <div className="flex justify-between items-center gap-4">
-            <h1 className='text-lg font-black sm:text-xl'>{title}</h1>
-            <div onClick={() => setMenuOpen('hidden')}>
-              <Button typeBtn='close' />
-            </div>
+        <div className="div px-4 py-5 sm:px-20 sm:py-10">
+          <div className="flex justify-between items-center gap-4">
+              <div onClick={() => setMenuOpen('hidden')}>
+                <Button typeBtn='close' />
+              </div>
+              <Button value={title}/>
+          </div>
+
+          <FilterView/>
         </div>
-
-        <FilterView/>
-
+        <button className='text-xl w-full h-20 bg-primary text-white sm:text-2xl lg:text-3xl hover:bg-primary/80'>{text}</button>
     </section>
   )
 }

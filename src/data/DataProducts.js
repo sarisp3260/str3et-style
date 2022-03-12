@@ -1,81 +1,89 @@
+export const propertiesProd = [
+    {
+        colors: [['Blanco','bg-white'], ['Negro','bg-primary'],['Beige','bg-beige'],['Rosado','bg-pink'],['Rojo','bg-red'],['Amarillo','bg-yellow-400'],['Azul','bg-blue-900'],],
+        categories: 'Camisetas,Buzos,Meidias,Stickers,Gorros,Gafas,Bolsas',
+        size: 'X,L,XL,Única,Unidad'
+    }
+]
+
 export const DataProducts = [
     {
         id: 100,
         type: "Camisetas",
         name: "Camiseta Hell",
         price: 20000,
-        size: 'X, L',
+        size: 'X,L',
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae. Sint dolores consequatur illum fugit sequi modi laudantium nesciunt aliquid omnis enim.",
         image: "https://dsm01pap001files.storage.live.com/y4mHvh58z9Ks1UkvKujQwNSB41Td1bZWRM7yb62fO41CxtTyQK8vhdnofh5dHdPEphGdNLGBdh2Lfz8uELlvq3kiKKN0BAhYimbPo0p-4ICiTbPdRW8c5ssFjubdkVd2PviaOwFrq-OnjhLIWQx_8flsLbVUjsoQTZoJnMfeUS75ZFXTX8TJz9ODGywiu22Xu34?width=500&height=500&cropmode=none",
         materialcare: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae.",
         other: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae.",
         inventory: 10,
-        color: 'negro'
+        color: 'Negro'
     },
     {
         id: 101,
         type: "Camisetas",
         name: "Camiseta f*ck love",
         price: 22000,
-        size: 'X, L',
+        size: 'X,L',
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae. Sint dolores consequatur illum fugit sequi modi laudantium nesciunt aliquid omnis enim.",
         image: "https://dsm01pap001files.storage.live.com/y4mqyMal1343ItvZy6St5nsxt2F5HQDXp3FSDrBn5Mdz_Ux68lkE1qx1rjiArR7oxavnVIvBGjek4z0wISzwyNnsv3mgwy1bz69nxtuh6aaNUbYz-l8TvuxdIAZMsJQlv42paQyLuBMMlx2ym2ulj-ID_MooyFYOLkMsz0jyF95ZFqZWTkEu9yuEbM8_e1UD_sS?width=500&height=500&cropmode=none",
         materialcare: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae.",
         other: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae.",
         inventory: 10,
-        color: 'beige'
+        color: 'Beige'
     },
     {
         id: 102,
         type: "Camisetas",
         name: "Camiseta Eukaropy",
         price: 30000,
-        size: 'X, L',
+        size: 'X,L',
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae. Sint dolores consequatur illum fugit sequi modi laudantium nesciunt aliquid omnis enim.",
         image: "https://dsm01pap001files.storage.live.com/y4mPkbshl-ac8DwHeX5XFFQ6UIrrcGs5MJQWhV3GKJLpB3pA7vA2nFpGmpHTXWH6fnrjx6GG_uNamYR_bnivYxU1Xb2Gt0qM9UK_etTlVkXEfI15kfizrCycBRGXvyAFy5PeovhnniOUgL8aXk6BbCYdE4GrWBeJgzs-v_oiGYR60VuPdFipY6J84jsHLadnHL4?width=500&height=500&cropmode=none",
         materialcare: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae.",
         other: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae.",
         inventory: 10,
-        color: 'negro'
+        color: 'Negro'
     },
     {
         id: 103,
         type: "Camisetas",
         name: "Camiseta pink F*ck",
         price: 22000,
-        size: 'X, L',
+        size: 'X,L',
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae. Sint dolores consequatur illum fugit sequi modi laudantium nesciunt aliquid omnis enim.",
         image: "https://dsm01pap001files.storage.live.com/y4mUaUunXffLUo0MPNt71bhTTHJNGn-h0ukf9GFqYjGYCyRcd44CfykLOjqImW5LAsClZCXByDL8XqT_MPrQieph2ioG2Fg1_J4ih4X2DxSIDJqWa8nH83QcG6utVom-BIfZ6nP3IHcez9bpbQU0gs4ZaadKfDY5YOLHdjr8S7ZvHH3MlW8jEWtPwCsuHSwbykz?width=500&height=500&cropmode=none",
         materialcare: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae.",
         other: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae.",
         inventory: 10,
-        color: 'pink'
+        color: 'Rosado'
     },
     {
         id: 200,
         type: "Buzos",
         name: "Buzos negro St3et Style",
         price: 22000,
-        size: 'X, L, XL',
+        size: 'X,L,XL',
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae. Sint dolores consequatur illum fugit sequi modi laudantium nesciunt aliquid omnis enim.",
         image: "https://dsm01pap001files.storage.live.com/y4mI3eeAciTs23Kyqh00rWcoqb6_VJxNQMH1Syt0F87YvLTYUjWisTP-H4KypRS5qVS5afJJT4-TZr8SfK-jW3J4nOhWNOe32BfcivXy6EVg9Vx1Soe8oyR14H-pRZXJV7Nor8Sa58002JQoZ4Nkt8LMdM10c9CPVp9DX_n9BQKRpZw_CJJwe0NPBDxkpzjHOfw?width=500&height=500&cropmode=none",
         materialcare: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae.",
         other: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae.",
         inventory: 10,
-        color: 'negro'
+        color: 'Negro'
     },
     {
         id: 201,
         type: "Buzos",
         name: "Buzos blanco",
         price: 30000,
-        size: 'X, L, XL',
+        size: 'X,L,XL',
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae. Sint dolores consequatur illum fugit sequi modi laudantium nesciunt aliquid omnis enim.",
         image: "https://dsm01pap001files.storage.live.com/y4mI3eeAciTs23Kyqh00rWcoqb6_VJxNQMH1Syt0F87YvLTYUjWisTP-H4KypRS5qVS5afJJT4-TZr8SfK-jW3J4nOhWNOe32BfcivXy6EVg9Vx1Soe8oyR14H-pRZXJV7Nor8Sa58002JQoZ4Nkt8LMdM10c9CPVp9DX_n9BQKRpZw_CJJwe0NPBDxkpzjHOfw?width=500&height=500&cropmode=none",
         materialcare: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae.",
         other: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae.",
         inventory: 10,
-        color: 'blanco'
+        color: 'Blanco'
     },
     {
         id: 300,
@@ -88,7 +96,7 @@ export const DataProducts = [
         materialcare: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae.",
         other: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae.",
         inventory: 10,
-        color: 'negro'
+        color: 'Negro'
     },
     {
         id: 301,
@@ -101,7 +109,7 @@ export const DataProducts = [
         materialcare: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae.",
         other: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae.",
         inventory: 10,
-        color: 'blanco'
+        color: 'Blanco'
     },
     {
         id: 302,
@@ -114,7 +122,7 @@ export const DataProducts = [
         materialcare: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae.",
         other: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae.",
         inventory: 10,
-        color: 'blanco'
+        color: 'Blanco'
     },
     {
         id: 303,
@@ -127,72 +135,72 @@ export const DataProducts = [
         materialcare: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae.",
         other: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae.",
         inventory: 10,
-        color: 'negro'
+        color: 'Negro'
     },
     {
         id: 400,
         type: "Stickers",
         name: "Sticker brand",
         price: 22000,
-        size: 'Única',
+        size: 'Unidad',
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae. Sint dolores consequatur illum fugit sequi modi laudantium nesciunt aliquid omnis enim.",
         image: "https://dsm01pap001files.storage.live.com/y4mGiohzsmhvwna9Ll7N_ct86wDZCQfZCt0foc_ogdY8k3upudkMchcXp4pIfup74DCDMzYsAvW4aPbX9-rYR8hXtZbbGKlLyzv4QKUDsAlGsIK3FzV8t5-B3hYb5oF3Os201WHIUVTUZH9dLG_BdFuBvM1h6_N9-ik1BQn5BcUAaV_u9ozreRFNgqCmZ41uqqQ?width=150&height=150&cropmode=none",
         materialcare: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae.",
         other: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae.",
         inventory: 10,
-        color: 'negro'
+        color: 'Negro'
     },
     {
         id: 401,
         type: "Stickers",
         name: "Sticker Bayby",
         price: 30000,
-        size: 'Única',
+        size: 'Unidad',
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae. Sint dolores consequatur illum fugit sequi modi laudantium nesciunt aliquid omnis enim.",
         image: "https://dsm01pap001files.storage.live.com/y4muTjolmQrcliYhEYudbXCkKm0WgQldECoGJrvlIkjstVAZ90XYYSbuY9LbQFM2vu2o5Fboqf3yrBFUYgINBxOd6Vng7hQ9QcudeMPSPLlo9VCusUBsHmFQvPJpimrpeqFPOt3TFvjaH5YAdSYnJyzAAtggRQAIHdfAbaAEOM0rydiamrSH7k8_Q4LwfK8ZGp-?width=427&height=584&cropmode=none",
         materialcare: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae.",
         other: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae.",
         inventory: 10,
-        color: 'azul'
+        color: 'Azul'
     },
     {
         id: 500,
         type: "Gafas",
         name: "Gafas de sol",
         price: 22000,
-        size: 'Única',
+        size: 'Unidad',
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae. Sint dolores consequatur illum fugit sequi modi laudantium nesciunt aliquid omnis enim.",
         image: "https://dsm01pap001files.storage.live.com/y4mrKpCHmjijOUuDRaIVNNU9W13l3TgXvuIvqnSlq--lncnL5syvRyr7pMB2ii9JEn-4H_-ZBsbsdz_HFBeRKo46eKEBUAnuqU8sTOuCoiOO9mP77pQhsghPdWfETgLAWNbJEMu3_ldzBqn3FrnxI-Ou6Ya4n1JuNfBvsbv0Scci-kSwktEM7K6jCWlCCDDk3Sy?width=500&height=500&cropmode=none",
         materialcare: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae.",
         other: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae.",
         inventory: 10,
-        color: 'blanco'
+        color: 'Blanco'
     },
     {
         id: 600,
         type: "BolsasEco",
         name: "Bolsas Ecológicas fresh",
         price: 24300,
-        size: 'Única',
+        size: 'Unidad',
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae. Sint dolores consequatur illum fugit sequi modi laudantium nesciunt aliquid omnis enim.",
         image: "https://dsm01pap001files.storage.live.com/y4mUfpHI2c-zA9n1X_3BBg_FLwpKCsjDdMvT4F9wc2QbiVyqAUN3EPXF2PQX3ly-hxdJZxGGL7_o864de6hm4J91Kx0Xa8SiIZy-TRZDv4wSBUvSTSx40sIFL0FLShXtF-NHWDp1SehIhGIsgWUG2xXnxmFGnK7XT9pWYiu0PTtpRExcML6xDfxDWkZ8VTpKpFh?width=449&height=555&cropmode=none",
         materialcare: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae.",
         other: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae.",
         inventory: 10,
-        color: 'blanco'
+        color: 'Blanco'
     },
     {
         id: 601,
         type: "BolsasEco",
         name: "Bolsas Ecológicas negra",
         price: 30000,
-        size: 'Única',
+        size: 'Unidad',
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae. Sint dolores consequatur illum fugit sequi modi laudantium nesciunt aliquid omnis enim.",
         image: "https://dsm01pap001files.storage.live.com/y4mUfpHI2c-zA9n1X_3BBg_FLwpKCsjDdMvT4F9wc2QbiVyqAUN3EPXF2PQX3ly-hxdJZxGGL7_o864de6hm4J91Kx0Xa8SiIZy-TRZDv4wSBUvSTSx40sIFL0FLShXtF-NHWDp1SehIhGIsgWUG2xXnxmFGnK7XT9pWYiu0PTtpRExcML6xDfxDWkZ8VTpKpFh?width=449&height=555&cropmode=none",
         materialcare: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae.",
         other: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae.",
         inventory: 10,
-        color: 'negro'
+        color: 'Negro'
     },
     {
         id: 700,
@@ -205,7 +213,7 @@ export const DataProducts = [
         materialcare: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae.",
         other: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae.",
         inventory: 10,
-        color: 'blanco'
+        color: 'Blanco'
     },
     {
         id: 701,
@@ -218,7 +226,7 @@ export const DataProducts = [
         materialcare: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae.",
         other: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae.",
         inventory: 10,
-        color: 'beige'
+        color: 'Beige'
     },
     {
         id: 702,
@@ -231,7 +239,7 @@ export const DataProducts = [
         materialcare: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae.",
         other: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae.",
         inventory: 10,
-        color: 'rosa'
+        color: 'Rosado'
     },
     {
         id: 703,
@@ -244,7 +252,7 @@ export const DataProducts = [
         materialcare: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae.",
         other: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae.",
         inventory: 10,
-        color: 'rojo'
+        color: 'Rojo'
     },
     {
         id: 704,
@@ -257,10 +265,10 @@ export const DataProducts = [
         materialcare: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae.",
         other: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae.",
         inventory: 10,
-        color: 'amarillo'
+        color: 'Amarillo'
     },
     {
-        id: 704,
+        id: 705,
         type: "Gorros",
         name: "Gorro Negro",
         price: 30000,
@@ -270,10 +278,10 @@ export const DataProducts = [
         materialcare: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae.",
         other: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae.",
         inventory: 10,
-        color: 'negro'
+        color: 'Negro'
     },
     {
-        id: 705,
+        id: 706,
         type: "Gorros",
         name: "Gorro Azul",
         price: 30000,
@@ -283,6 +291,6 @@ export const DataProducts = [
         materialcare: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae.",
         other: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae.",
         inventory: 10,
-        color: 'azul'
+        color: 'Azul'
     },
 ]
