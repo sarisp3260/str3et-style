@@ -1,7 +1,6 @@
 import React from 'react'
 import Button from '../Buttons/Button'
 import FilterView from '../Filter/FilterView'
-import CartView from './CartView'
 
 const Modal = ({title, text}) => {
 

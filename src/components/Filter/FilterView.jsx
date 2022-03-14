@@ -1,16 +1,15 @@
 import React from 'react'
 import CategoryFilter from './CategoryFilter'
-import Button from '../Buttons/Button'
+
 
 import { propertiesProd } from '../../data/DataProducts'
-import { CartState } from '../../context/Context'
+
 
 const FilterView = () => {
     const styleText = 'text-xl font-bold py-2 sm:text-2xl lg:text-3xl '
 
     const sizes = propertiesProd[0].size.split(',')
 
-    const {filerState: { camisetas }, filterDispatch} = CartState()
 
   return (
     <div className='pt-6'>

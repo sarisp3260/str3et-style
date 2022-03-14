@@ -7,7 +7,7 @@ import { CartState } from '../../context/Context'
 const CardProduct = ({prod , i}) => {
   
 
-  const { state: { products , cart }, dispatch } = CartState()
+  const { state: {cart }, dispatch } = CartState()
 
     /* const [showAddCart, setShowAddCart] = useState(false) */
 

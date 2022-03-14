@@ -2,6 +2,7 @@ const styleLink = 'text-xl hover:text-red py-2'
 
 export const DataInfo = [
     {
+        id: 1,
         title: "Lo más reciente!",
         text:[
         <a href="https://www.google.com.co/" target="_blank" rel="noreferrer" className={`${styleLink}`}>Lorem</a>,
@@ -11,6 +12,7 @@ export const DataInfo = [
         ]
     },
     {
+        id: 2,
         title: "Te puede interesar",
         text:[
         <a href="https://www.google.com.co/" target="_blank" rel="noreferrer" className={`${styleLink}`}>Lorem</a>,
@@ -19,6 +21,7 @@ export const DataInfo = [
         ]
     },
     {
+        id: 3,
         title: "Lo más visto",
         text:[
         <a href="https://www.google.com.co/" target="_blank" rel="noreferrer" className={`${styleLink}`}>Lorem</a>,
