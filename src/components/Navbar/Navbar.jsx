@@ -35,7 +35,7 @@ const Navbar = () => {
   
   return (
     <nav className={`flex ${colorNav} items-center px-6 h-16 fixed top-0 w-full z-20 sm:px-12`}>
-      <div className='left-items flex items-center gap-2 sm:gap-4 z-30 '>
+      <div className='left-items flex items-center gap-2 sm:gap-4 z-40 '>
           <div onClick={() => {setMenuOpen(!menuOpen); /* console.log('hg') */}}>
             <MdMenu className='text-2xl font-black sm:text-4xl hover:text-primary/60' />
           </div>
@@ -59,7 +59,7 @@ const Navbar = () => {
           </div>
       </div>}
       {menuOpen && <div onClick={()=> setMenuOpen(false)}><MenuToogle/></div>}
-      {cartOpen && <div className='h-screen'><CartView/></div>}
+      {cartOpen && <div className='h-screen'><CartView /></div>}
     </nav>
   )
 }

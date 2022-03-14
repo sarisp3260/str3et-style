@@ -1,7 +1,7 @@
 export const propertiesProd = [
     {
         colors: [['Blanco','bg-white'], ['Negro','bg-primary'],['Beige','bg-beige'],['Rosado','bg-pink'],['Rojo','bg-red'],['Amarillo','bg-yellow-400'],['Azul','bg-blue-900'],],
-        categories: 'Camisetas,Buzos,Medias,Stickers,Gorros,Gafas,Bolsas',
+        categories: 'Camisetas,Buzos,Medias,Stickers,Gorros,Gafas,BolsasEco',
         size: 'X,L,XL,Única,Unidad'
     }
 ]

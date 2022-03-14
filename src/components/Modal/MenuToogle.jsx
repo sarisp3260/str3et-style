@@ -34,7 +34,7 @@ const MenuToogle = () => {
                 <Link to="!#" className={`${spanCofig} grid-cols-1 `}>Recomendaciones</Link>
             </div>
             <div className={`item ${itemDiv} grid-cols-1`}>
-                <Link to="!#" className={`${spanCofig} `}>Redes sociales</Link>
+                <a href="https://www.instagram.com/str3et_style/" className={`${spanCofig} `} target='_blank' rel='noreferrer'>Redes sociales</a>
             </div>
         </div>
     </>

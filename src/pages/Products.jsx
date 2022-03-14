@@ -11,7 +11,7 @@ import { useParams } from 'react-router-dom'
 
 const Products = () => {
   const { state: { products} } = CartState()
-  console.log(products)
+  /* console.log(products) */
 
   const {itemFilter} = useParams()
 
@@ -23,9 +23,7 @@ const Products = () => {
   else{
     dataArray = products
   }
-
-
-  console.log(dataArray)
+  /* console.log(dataArray) */
 
   const [openModal, setOpenModal] = useState()
 
@@ -44,11 +42,10 @@ const Products = () => {
         <CategoryFilter pageProduct='pageProduct'/>
         
         <div className="grid-product grid grid-cols-1 place-items-center py-6 sm:grid-cols-3 lg:grid-cols-4">
-          {dataArray.map((prod , i) => {
+          {dataArray.length === 0 ? <span>No se encuentran coincidencias, pero sigue mirando más productos :)</span> : dataArray.map((prod , i) => {
             return <CardProduct prod={ prod } i={i} key={ prod.id}/>
           })}
         </div>
-
     </div>
     
   )

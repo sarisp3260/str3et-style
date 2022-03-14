@@ -57,7 +57,7 @@ const Cart = () => {
             {cart.length === 0 && <Link to='/Productos'><Button value='Regresar a selección de producto' textsize='lg:text-lg'/></Link>}
           </div>
           <span className='text-xl sm:text-2xl '>{`Precio Total: ${total}`}</span>
-          <Form/>
+          <Form total={total}/>
         </div>
         
     </div>
