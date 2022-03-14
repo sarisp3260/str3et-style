@@ -41,19 +41,6 @@ const CardProduct = ({prod , i}) => {
                    
               </div>
 
-              {products[i].size.includes('Unidad') ? <h2 className='pt-4 font-semibold text-xl'>Cantidad:</h2> : <h2 className='pt-4 font-semibold text-xl'>Talla:</h2>}
-              
-              <div className="div">
-                <div className='flex gap-4 justify-center'>
-                  {products[i].size.map((sizes, key) => {
-                    return <div className='item-size'key={key}>
-                      <Button typeBtn='color' extra='bg-primary text-white' value={sizes}></Button>
-                    </div>})}
-                </div>
-              </div>
-
-
-
               <span className='text-xl text-primary py-4' onClick={() => alert('Hola')}>{prod.name}</span>
               <span className='text-2xl text-primary font-bold'> {`$ ${prod.price} COP`}</span>
 

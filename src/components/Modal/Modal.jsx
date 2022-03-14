@@ -1,21 +1,20 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Button from '../Buttons/Button'
 import FilterView from '../Filter/FilterView'
+import CartView from './CartView'
 
 const Modal = ({title, text}) => {
 
-    const [menuOpen, setMenuOpen] = useState('block')
-
-    /* console.log(menuOpen) */
 
   return (
-    <section className={`modal ${menuOpen} bg-slate-50 z-10 absolute top-20 right-0 w-full h-fit shadow-lg`}>
+    <section className={`modal  bg-slate-50 z-10 absolute top-40 right-0 w-full h-fit shadow-lg`}>
 
         <div className="div px-4 py-5 sm:px-20 sm:py-10">
           <div className="flex justify-between items-center gap-4">
-              <div onClick={() => setMenuOpen('hidden')}>
-                <Button typeBtn='close' />
-              </div>
+            <h1>Filtro</h1>
+              {/* <div onClick={() => setMenuOpen('hidden')}>
+                
+              </div> */}
               <Button value={title}/>
           </div>
 

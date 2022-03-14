@@ -1,7 +1,7 @@
 export const propertiesProd = [
     {
         colors: [['Blanco','bg-white'], ['Negro','bg-primary'],['Beige','bg-beige'],['Rosado','bg-pink'],['Rojo','bg-red'],['Amarillo','bg-yellow-400'],['Azul','bg-blue-900'],],
-        categories: 'Camisetas,Buzos,Meidias,Stickers,Gorros,Gafas,Bolsas',
+        categories: 'Camisetas,Buzos,Medias,Stickers,Gorros,Gafas,Bolsas',
         size: 'X,L,XL,Única,Unidad'
     }
 ]
@@ -17,7 +17,7 @@ export const DataProducts = [
         image: "https://dsm01pap001files.storage.live.com/y4mHvh58z9Ks1UkvKujQwNSB41Td1bZWRM7yb62fO41CxtTyQK8vhdnofh5dHdPEphGdNLGBdh2Lfz8uELlvq3kiKKN0BAhYimbPo0p-4ICiTbPdRW8c5ssFjubdkVd2PviaOwFrq-OnjhLIWQx_8flsLbVUjsoQTZoJnMfeUS75ZFXTX8TJz9ODGywiu22Xu34?width=500&height=500&cropmode=none",
         materialcare: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae.",
         other: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ullam non id optio quos rem eum amet recusandae.",
-        inventory: 10,
+        inventory: 12,
         color: 'Negro'
     },
     {

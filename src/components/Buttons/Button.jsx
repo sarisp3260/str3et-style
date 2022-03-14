@@ -2,7 +2,7 @@ import React from 'react'
 import { BsWhatsapp } from 'react-icons/bs'
 import { FaTimes } from 'react-icons/fa'
 
-const Button = ({typeBtn, value, extra, textsize, icon}) => {
+const Button = ({typeBtn, value, extra, textsize, icon ,url}) => {
   const textStyle = 'text-md font-bold sm:text-lg lg:text-xl'
   return (
     <>
@@ -12,10 +12,10 @@ const Button = ({typeBtn, value, extra, textsize, icon}) => {
     </button>
     : typeBtn === 'iconButton' ?
     <button className="btn bg-green-600 text-white py-1 px-4 rounded-full sm:py-2 sm-px-6 hover:bg-primary">
-      <span className={`${textStyle} ${textsize} flex items-center gap-4`}>{value} {icon !== '' ? icon : <BsWhatsapp className='text-xl sm:text-2xl'/> } </span>
+      <span className={`${textStyle} ${textsize} flex items-center gap-4`}>{value} {icon !== '' ? <BsWhatsapp className='text-xl sm:text-2xl'/> : icon } </span>
     </button>
     : typeBtn === 'squareButton' ?
-    <button className="btn bg-primary text-white py-1 px-4 sm:py-2 sm-px-6 hover:bg-beige hover:text-primary">
+    <button className="btn bg-primary text-white py-1 px-4 sm:py-2 sm-px-6 hover:bg-primary/80">
             <span className={`${textsize} ${textStyle}`}>{value}</span>
     </button>
     : typeBtn === 'close' ?
