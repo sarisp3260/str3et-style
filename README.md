@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# STR3ET STYLE 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img align='left' src="https://dsm01pap001files.storage.live.com/y4mM7FDW-O6e-UzDgAPB1C2ZeaZTgfCIYJgKib2GsnZczmprmR1rb75CzPFGtkT3HBcPCq8bh0O_cgffY-Hqb1jJFfWl80iQn7T3owJ6srl0icj9_kHe_pWtM_Pwmv_KvWiJpukVkufu4PXE7OcD6QI82c5hh-1FlG1RBQLYMErfWDM5rFKZ15Qj2RwaHccLA_u?width=1064&height=1600&cropmode=none" width="150">
 
-## Available Scripts
 
-In the project directory, you can run:
+<p align='center'><em>  <a href="https://str3et-style.netlify.app/">STR3ET STYLE página Web 💻 </a><br/><br/> Street clothes <br/>
+📍Bogotá/colombia <br/><br/> Ropa juvenil 👕 <br/>
+</em></p>
+<img align='right' src="https://dsm01pap001files.storage.live.com/y4mGiohzsmhvwna9Ll7N_ct86wDZCQfZCt0foc_ogdY8k3upudkMchcXp4pIfup74DCDMzYsAvW4aPbX9-rYR8hXtZbbGKlLyzv4QKUDsAlGsIK3FzV8t5-B3hYb5oF3Os201WHIUVTUZH9dLG_BdFuBvM1h6_N9-ik1BQn5BcUAaV_u9ozreRFNgqCmZ41uqqQ?width=150&height=150&cropmode=none" width="230">
 
-### `npm start`
+## ¿Quién es STR3ET STYLE? 👕👚🧦
+Es un emprendimiento en la ciudad de Bogotá que cuenta con una gran variedad de prendas enfocadas a un público juvenil
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Proyecto 🚀
+Se desarrollo una página web en la que los usuarios pueden interactuar, conocer y comprar productos de la marca de ropa juvenil STR3ET STYLE. En la cual se toda la información de la compra se realiza por me dio de la aplicación WhatsApp 💻
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Sección inicio
+![inicio-1.png](https://dsm01pap001files.storage.live.com/y4m72_58foSCM66OUGhKFjfl6KyHHGkwqN8msypzt62HtoXgWXnKsRpAEHvm8Tkh0svOerQa8Vk4llguHPXnLnWw8gFauxGC2SZDQNZC5sZHHARZUsUFOcebUmeeBYPoclLp85hwxAgWuZXOlDmJBt2pHIhKAYECGFS_tKRfSZwR7ApBjV_u5C2j2ITwshhhA0H?width=1897&height=892&cropmode=none)
 
-### `npm test`
+- Sección productos
+![productos-1.png](https://dsm01pap001files.storage.live.com/y4mKtYvprjertOtvbvhrg7XC0PoSZq4lz4S4jOI2JgeHgrneSlC8Lh5hU7rRSgWjKjc4_EgI4if34xhWBBYf4rUM5Jy7KvP1dheN_Fq6LgLV4B7BrquKyhhnT9U1B-Z805oqclvQ1IAe7mNPNgxaA_ctpTw25Sqx8Tr1DfG_XRpvekm_bzAUHR735nl2U3mSNwl?width=1892&height=886&cropmode=none)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Sección carrito de compras
+![inicio-1.png](https://dsm01pap001files.storage.live.com/y4mWbOQYdpHyuKDC83pWpVu8qXv6m7UYPxEgxu0iqAUzc69jPz_E8xforRaIqzornUBWQFQDoPH0QTTgKuil8tmAhydmCSMVpdXAz_jYkktzRt7r8lnheDp9JSC67QUjNyBuRGjQrFoLHMo0esh7r9oJGMOg3UUBHw_HxNPtBegVOF1fJ6hKvFsxGqHYRfM6N4Q?width=1895&height=885&cropmode=none)
 
-### `npm run build`
+## Product - Backlog
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* [Link del Product-Backlog realizado en Trello✔️](https://trello.com/b/X5b5LQi1/str3et-style)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Pre-requisitos 📋
+Para la clonación de repositorio se requiere la utilización del comando:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+`$ npm install` ó `$ npm i`
 
-### `npm run eject`
+El cual correrá todas las librería pre-instaladas que posea la aplicación
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Construido con 🛠️
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* [Tailwind CSS](https://tailwindcss.com/) - FrameWork de estilos usado. 
+* [react-router-dom](https://v5.reactrouter.com/web/guides/quick-start) -  npm package. 
+* [React - icons](https://react-icons.github.io/react-icons/) - Librería React usada. 
+* [React - Player](https://www.npmjs.com/package/react-player) - Librería React usada. 
+* [Html]() - Maquetación.
+* [React](https://reactjs.org/) - Librería de JavaScrip.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Autores ✒️
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* **Sara Salas Perez** - *Desarrolladora* - [GitHub](https://github.com/sarisp3260)
 
-## Learn More
+## Expresiones de Gratitud 💝
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Mi máxima expresión de gratitud a mi cliente STR3ET STYLE por permitirme esta oportunidad tan maravillosa de construir este sitio web y también un agradecimiento muy especial a mis compañeros y formadores.
